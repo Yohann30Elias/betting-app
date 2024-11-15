@@ -1,0 +1,14 @@
+[
+    { "name": "Mike", "wahrscheinlichkeit": 0.01 },
+    { "name": "Devin", "wahrscheinlichkeit": 0.74 },
+    { "name": "Nils", "wahrscheinlichkeit": 0.92 },
+    { "name": "Jann", "wahrscheinlichkeit": 0.68 },
+    { "name": "Marco", "wahrscheinlichkeit": 0.32 },
+    { "name": "Gian", "wahrscheinlichkeit": 0.91 },
+    { "name": "Morrol", "wahrscheinlichkeit": 0.34 },
+    { "name": "Dominik", "wahrscheinlichkeit": 0.78 },
+    { "name": "Laurin", "wahrscheinlichkeit": 0.72 },
+    { "name": "Heiko", "wahrscheinlichkeit": 0.79 },
+    { "name": "Kenz", "wahrscheinlichkeit": 0.11 }
+  ]
+  

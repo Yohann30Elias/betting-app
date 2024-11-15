@@ -1,38 +1,121 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.mainApp {
+  position: relative;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding-top: 50px;
+}
+
+.navabar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navabar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navabar li {
+  margin: 0 15px;
+}
+
+.navabar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navabar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.Wetten {
+  margin: 20px auto;
+  width: 80%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+th {
+  background-color: #333;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+td {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-bekommen {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-bekommen:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.btn-nicht-bekommen {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-nicht-bekommen:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+.selected {
+  background-color: #0056b3 !important;
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.btn-submit {
+  background-color: #007BFF;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
