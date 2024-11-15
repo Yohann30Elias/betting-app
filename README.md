@@ -1,3 +1,3 @@
 # Glücksspiel ist wichti gund Richtig
 
-Für mehr Glücksspiel im Leben
+an alle Mitwirkende bitte macht was vernünftiges wa
